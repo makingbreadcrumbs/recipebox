@@ -1,4 +1,4 @@
-# Allison's Recipe Site — GitHub Pages Setup
+# Recipe Site — GitHub Pages Setup
 
 This folder is a ready-to-publish static website. Follow these one-time steps to make it live on the web, free, with no domain to decide on.
 
