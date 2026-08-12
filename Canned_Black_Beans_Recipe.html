@@ -7,12 +7,13 @@
 <title>How to Cook Canned Black Beans</title>
 <style>
   @media print {
+    .no-print { display: none !important; }
     a { color: #ae1800 !important; }
     .page { break-after: page; break-inside: avoid; }
     @page { size: letter; margin: 0; }
     body { margin: 0; }
   }
-  body { margin: 0; background: #e0e0e0; }
+  body { margin: 0; background: #e0e0e0; font-family: 'Archivo', system-ui, sans-serif; }
   .page {
     font-family: 'Archivo', system-ui, sans-serif;
     color: #201e1d;
@@ -27,16 +28,111 @@
   }
   .page + .page { margin-top: 8px; }
   @media print { .page + .page { margin-top: 0; } }
+
+  * { box-sizing: border-box; }
+  html, body { overflow-x: hidden; }
+  .site-nav {
+    background: #201e1d;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-inner {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+  .nav-brand {
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: -0.01em;
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav-links { display: flex; align-items: center; gap: 8px; height: 100%; }
+  .nav-link {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255,255,255,0.85);
+    padding: 10px 14px;
+    border-radius: 4px;
+    transition: background 0.15s, color 0.15s;
+  }
+  .nav-link:hover { background: rgba(255,255,255,0.1); color: #fff; }
+  .nav-item { position: relative; height: 100%; display: flex; align-items: center; }
+  .nav-caret { font-size: 10px; margin-left: 3px; opacity: 0.7; }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f3f2f2;
+    border: 1px solid rgba(32,30,29,0.15);
+    min-width: 160px;
+    padding: 6px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  }
+  .nav-item:hover .dropdown-menu { display: block; }
+  .dropdown-menu a {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #201e1d;
+    text-decoration: none;
+    padding: 9px 12px;
+    border-radius: 3px;
+  }
+  .dropdown-menu a:hover { background: #ae1800; color: #fff; }
+  .category-link { color: #ae1800; text-decoration: none; }
+  .category-link:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
 
+<nav class="site-nav no-print">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Recipe Box</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Home</a>
+      <div class="nav-item">
+        <a class="nav-link" href="index.html">Recipes <span class="nav-caret">▾</span></a>
+        <div class="dropdown-menu">
+          <a href="index.html?category=Breakfast">Breakfast</a>
+          <a href="index.html?category=Lunch">Lunch</a>
+          <a href="index.html?category=Dinner">Dinner</a>
+          <a href="index.html?category=Sides">Sides</a>
+          <a href="index.html?category=Snacks">Snacks</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
 <!-- PAGE 1 -->
 <section class="page">
 
-  <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#ae1800;font-weight:800;margin-bottom:10px;">Sides / Mexican</div>
-  <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:48px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">How to Cook Canned Black Beans</h1>
-  <p style="font-size:16px;line-height:1.5;margin:0 0 24px;max-width:560px;color:#443f3e;">An easy way to season canned black beans into a flavorful side dish in under 20 minutes.</p>
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;">
+    <div style="flex:1;min-width:0;">
+      <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;margin-bottom:10px;">
+        <a class="category-link" href="index.html?category=Sides">Sides</a>
+      </div>
+      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:48px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">How to Cook Canned Black Beans</h1>
+      <p style="font-size:16px;line-height:1.5;margin:0;max-width:560px;color:#443f3e;">An easy way to season canned black beans into a flavorful side dish in under 20 minutes.</p>
+    </div>
+    <div style="flex:none;width:200px;height:200px;">
+      <img src="Canned_Black_Beans_Recipe.jpg" alt="Cooked canned black beans with tomatoes, onions and garlic" style="width:100%;height:100%;object-fit:cover;border:2px solid rgba(32,30,29,0.15);display:block;">
+    </div>
+  </div>
+
+  <div style="height:24px;"></div>
 
   <div style="display:flex;align-items:stretch;gap:0;margin-bottom:28px;">
     <div style="padding-right:20px;">
