@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap">
+<title>Chinese-Style Instant Pot Shredded Chicken</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { overflow-x: hidden; }
+  @media print {
+    a { color: #ae1800 !important; }
+    .page { break-after: page; break-inside: avoid; }
+    @page { size: letter; margin: 0; }
+    body { margin: 0; }
+    .no-print { display: none !important; }
+  }
+  body {
+    margin: 0;
+    background: #e0e0e0;
+    font-family: 'Archivo', system-ui, sans-serif;
+  }
+
+  /* ---- Site Nav (identical across every page) ---- */
+  .site-nav { background: #201e1d; width: 100%; position: sticky; top: 0; z-index: 100; }
+  .nav-inner { max-width: 980px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; height: 60px; }
+  .nav-brand { font-weight: 800; font-size: 17px; letter-spacing: -0.01em; color: #fff; text-decoration: none; }
+  .nav-links { display: flex; align-items: center; gap: 8px; height: 100%; }
+  .nav-link { font-size: 13px; font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase; text-decoration: none; color: rgba(255,255,255,0.85); padding: 10px 14px; border-radius: 4px; transition: background 0.15s, color 0.15s; }
+  .nav-link:hover { background: rgba(255,255,255,0.1); color: #fff; }
+  .nav-item { position: relative; height: 100%; display: flex; align-items: center; }
+  .nav-caret { font-size: 10px; margin-left: 3px; opacity: 0.7; }
+  .dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: #f3f2f2; border: 1px solid rgba(32,30,29,0.15); min-width: 160px; padding: 6px; box-shadow: 0 8px 20px rgba(0,0,0,0.25); }
+  .nav-item:hover .dropdown-menu { display: block; }
+  .dropdown-menu a { display: block; font-size: 13px; font-weight: 600; color: #201e1d; text-decoration: none; padding: 9px 12px; border-radius: 3px; }
+  .dropdown-menu a:hover { background: #ae1800; color: #fff; }
+
+  .page {
+    font-family: 'Archivo', system-ui, sans-serif;
+    color: #201e1d;
+    background: #f3f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 64px;
+    width: 8.5in;
+    min-height: 11in;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  .page + .page { margin-top: 8px; }
+  @media print { .page + .page { margin-top: 0; } }
+
+  .category-link { color: #ae1800; text-decoration: none; }
+  .category-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<nav class="site-nav no-print">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Recipe Box</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Home</a>
+      <div class="nav-item">
+        <a class="nav-link" href="index.html">Recipes <span class="nav-caret">▾</span></a>
+        <div class="dropdown-menu">
+          <a href="index.html?category=Breakfast">Breakfast</a>
+          <a href="index.html?category=Lunch">Lunch</a>
+          <a href="index.html?category=Dinner">Dinner</a>
+          <a href="index.html?category=Sides">Sides</a>
+          <a href="index.html?category=Snacks">Snacks</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE 1 -->
+<section class="page">
+
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;">
+    <div style="flex:1;min-width:0;">
+      <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;margin-bottom:10px;">
+        <a class="category-link" href="index.html?category=Lunch">Lunch</a>
+        <span style="color:rgba(32,30,29,0.4);"> &middot; </span>
+        <a class="category-link" href="index.html?category=Dinner">Dinner</a>
+      </div>
+      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:44px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">Chinese-Style Instant Pot Shredded Chicken</h1>
+      <p style="font-size:16px;line-height:1.5;margin:0;max-width:560px;color:#443f3e;">A meal-prep staple — juicy shredded chicken in a savory oyster sauce, ready in about 20 minutes of Instant Pot time.</p>
+    </div>
+    <div style="flex:none;width:200px;height:200px;">
+      <img src="Chinese_Style_Instant_Pot_Shredded_Chicken_Recipe.jpg" alt="Chinese-style Instant Pot shredded chicken in a bowl" style="width:100%;height:100%;object-fit:cover;border:2px solid rgba(32,30,29,0.15);display:block;">
+    </div>
+  </div>
+
+  <div style="display:flex;align-items:stretch;gap:0;margin:24px 0 28px;">
+    <div style="padding-right:20px;">
+      <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#605d5d;margin-bottom:4px;">Serves</div>
+      <div style="font-size:18px;font-weight:800;">4–6</div>
+    </div>
+    <div style="width:2px;background:rgba(32,30,29,0.4);"></div>
+    <div style="padding:0 20px;">
+      <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#605d5d;margin-bottom:4px;">Prep</div>
+      <div style="font-size:18px;font-weight:800;">5 min</div>
+    </div>
+    <div style="width:2px;background:rgba(32,30,29,0.4);"></div>
+    <div style="padding:0 20px;">
+      <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#605d5d;margin-bottom:4px;">Cook</div>
+      <div style="font-size:18px;font-weight:800;">15 min</div>
+    </div>
+    <div style="width:2px;background:rgba(32,30,29,0.4);"></div>
+    <div style="padding-left:20px;">
+      <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#605d5d;margin-bottom:4px;">Difficulty</div>
+      <div style="font-size:18px;font-weight:800;">Easy</div>
+    </div>
+  </div>
+
+  <p style="font-size:14px;line-height:1.65;color:#443f3e;margin:0 0 28px;max-width:620px;">This Chinese-style shredded chicken leans on oyster sauce instead of the honey or bbq sauce found in most Instant Pot chicken recipes, giving it a savory, umami-rich coating rather than a sweet one. Mix the sauce right in the pot, add the chicken, and let the Instant Pot do the work — a big batch keeps in the fridge for days and freezes well, making it an easy Sunday meal-prep staple for rice bowls, noodle soups, salads, and wraps all week.</p>
+
+  <hr style="height:2px;border:0;background:rgba(32,30,29,0.4);margin:0 0 28px;">
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;flex:1;">
+    <div style="padding-right:32px;">
+      <h3 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;">The Sauce</h3>
+      <div style="font-size:12px;color:#605d5d;margin-bottom:16px;">Mixed directly in the Instant Pot</div>
+      <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;">
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Oyster sauce</span><span style="font-weight:800;color:#ae1800;">1/4 cup</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Soy sauce</span><span style="font-weight:800;color:#ae1800;">2 tbsp</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Rice vinegar</span><span style="font-weight:800;color:#ae1800;">1 tbsp</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Ginger, grated</span><span style="font-weight:800;color:#ae1800;">1 tsp</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Garlic, grated</span><span style="font-weight:800;color:#ae1800;">2 cloves</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Ground black pepper</span><span style="font-weight:800;color:#ae1800;">1/4 tsp</span></li>
+      </ul>
+    </div>
+    <div style="padding-left:32px;border-left:2px solid rgba(32,30,29,0.4);">
+      <h3 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;">The Chicken</h3>
+      <div style="font-size:12px;color:#605d5d;margin-bottom:16px;">Pressure-cooked, then shredded</div>
+      <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;">
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Boneless, skinless chicken breasts (or thighs)</span><span style="font-weight:800;color:#ae1800;">2 lbs</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Green onion, chopped, for garnish (optional)</span><span style="font-weight:800;color:#ae1800;">to taste</span></li>
+      </ul>
+      <p style="font-size:12px;font-style:italic;color:#605d5d;margin:16px 0 0;line-height:1.5;">Thighs stay juicier if slightly overcooked; breasts give leaner, cleaner shreds.</p>
+    </div>
+  </div>
+
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:28px;padding-top:14px;border-top:2px solid rgba(32,30,29,0.4);font-size:11px;color:#605d5d;">
+    <span>Chinese-Style Instant Pot Shredded Chicken</span>
+    <span>01</span>
+  </div>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page">
+
+  <h2 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:32px;margin:0 0 24px;">Directions</h2>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;margin-bottom:28px;">
+    <div style="padding-right:32px;">
+      <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#ae1800;font-weight:800;margin-bottom:14px;">Mix & Cook</div>
+      <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px;">
+        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">1</span><span>Add the oyster sauce, soy sauce, rice vinegar, ginger, garlic, and black pepper directly into the Instant Pot. Stir to combine.</span></li>
+        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">2</span><span>Add the chicken and toss to coat with the sauce, spreading the pieces out with minimal overlap.</span></li>
+        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">3</span><span>Close the lid, seal the valve, select manual/pressure cook on high, and set the timer for 10 minutes (7–8 minutes for smaller breasts).</span></li>
+      </ol>
+    </div>
+    <div style="padding-left:32px;border-left:2px solid rgba(32,30,29,0.4);">
+      <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#ae1800;font-weight:800;margin-bottom:14px;">Release & Shred</div>
+      <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px;">
+        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">1</span><span>When cooking is done, let the pressure release naturally for 5 minutes, then quick release the rest.</span></li>
+        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">2</span><span>Open the lid and let cool a few minutes, then shred the chicken directly in the pot with two forks.</span></li>
+        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">3</span><span>Toss the shredded chicken with the sauce until coated. Serve hot over rice or noodles, or let cool and store for the week.</span></li>
+      </ol>
+    </div>
+  </div>
+
+  <hr style="height:2px;border:0;background:rgba(32,30,29,0.4);margin:0 0 24px;">
+
+  <div style="border:2px solid #ec3013;padding:20px 24px;margin-bottom:24px;">
+    <h4 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:16px;margin:0 0 10px;color:#ae1800;">Tips &amp; Variations</h4>
+    <ul style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:13px;line-height:1.5;color:#332f2e;">
+      <li>Chicken thighs are more forgiving for meal prep — they stay tender even if the timing runs slightly over.</li>
+      <li>Frozen chicken works fine — add it straight from frozen and increase the pressure cook time to 15 minutes.</li>
+      <li>If the sauce is thin after shredding, switch to sauté and stir in a cornstarch slurry to thicken it in about a minute.</li>
+    </ul>
+  </div>
+
+  <p style="font-size:11px;font-style:italic;color:#605d5d;line-height:1.5;margin:0 0 auto;max-width:640px;">Nutrition information is not provided and will vary based on portion size and specific ingredients used. Consult a registered dietitian for guidance on your dietary needs.</p>
+
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:24px;padding-top:14px;border-top:2px solid rgba(32,30,29,0.4);font-size:12px;">
+    <span style="color:#605d5d;">Recipe: Maggie Zhu, Omnivore's Cookbook</span>
+    <span style="color:#605d5d;">02</span>
+  </div>
+</section>
+
+</body>
+</html>
