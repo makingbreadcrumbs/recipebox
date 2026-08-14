@@ -1,0 +1,18 @@
+# Recipe photo manifest
+#
+# Format, one photo per line:
+#   <filename-in-repo>    <source URL>
+#
+# Lines starting with # are ignored.
+#
+# On push, .github/workflows/fetch-photos.yml downloads every file listed
+# here that isn't already in the repo and commits it. Photos already present
+# are skipped, so adding a line is always safe and re-running is harmless.
+#
+# The six original photos (Air_Fryer_Salmon, Canned_Black_Beans, Miso_Ramen,
+# One_Pot_Toddler_Pasta, Simple_Miso_Ramen, Skillet_Broccoli_Cheddar_Rice)
+# were uploaded by hand from local screenshots and have no source URL,
+# so they are not listed here.
+
+Instant_Pot_Braised_Chicken_Recipe.jpg                   https://www.cynfulkitchen.ca/wp-content/uploads/2020/06/IPchinesechicken-6495.jpg
+Chinese_Style_Instant_Pot_Shredded_Chicken_Recipe.jpg    https://omnivorescookbook.com/wp-content/uploads/2026/03/241029_Instant-Pot-Chinese-Shredded-Chicken_2.jpg
