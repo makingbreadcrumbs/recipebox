@@ -1,0 +1,98 @@
+name: Fetch recipe photos
+
+on:
+  push:
+    paths:
+      - 'photos.txt'
+      - '.github/workflows/fetch-photos.yml'
+  workflow_dispatch:
+    inputs:
+      force_refetch:
+        description: 'Re-download photos even if they already exist in the repo'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download photos listed in photos.txt
+        env:
+          FORCE: ${{ inputs.force_refetch }}
+        run: |
+          set -uo pipefail
+
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          mkdir -p .photo-tmp
+          failed=0
+          added=0
+          skipped=0
+
+          while read -r filename url rest || [ -n "${filename:-}" ]; do
+            case "${filename:-}" in ''|'#'*) continue ;; esac
+
+            if [ -z "${url:-}" ]; then
+              echo "::error::Manifest entry '$filename' has no URL"
+              failed=1
+              continue
+            fi
+
+            if [ -f "$filename" ] && [ "$FORCE" != "true" ]; then
+              echo "skip   $filename (already in repo)"
+              skipped=$((skipped + 1))
+              continue
+            fi
+
+            tmp=".photo-tmp/$filename"
+            echo "fetch  $filename <- $url"
+
+            if ! curl -fsSL --max-time 60 -A "$UA" -o "$tmp" "$url"; then
+              echo "::error::Download failed for $filename ($url)"
+              failed=1
+              continue
+            fi
+
+            # Guard against a source returning an HTML error page with a .jpg name.
+            mime=$(file --mime-type -b "$tmp")
+            case "$mime" in
+              image/*) ;;
+              *)
+                echo "::error::$filename is not an image (got $mime) - the source likely returned an error page"
+                failed=1
+                continue
+                ;;
+            esac
+
+            # Only overwrite an existing photo once the new one is known good.
+            mv "$tmp" "$filename"
+            echo "ok     $filename ($mime)"
+            added=$((added + 1))
+          done < photos.txt
+
+          rm -rf .photo-tmp
+          echo "--- fetched: $added   skipped: $skipped ---"
+
+          if [ "$failed" -ne 0 ]; then
+            echo "::error::One or more photos could not be fetched - see errors above"
+            exit 1
+          fi
+
+      - name: Commit any new photos
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No new photos to commit."
+            exit 0
+          fi
+
+          git add -A
+          git commit -m "Add recipe photos from photos.txt manifest"
+          git push
