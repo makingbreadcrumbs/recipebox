@@ -11,6 +11,10 @@ on:
         description: 'Re-download photos even if they already exist in the repo'
         type: boolean
         default: false
+      optimize_existing:
+        description: 'Also re-compress every .jpg already in the repo (one-off cleanup)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -19,11 +23,25 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      - name: Resolve ImageMagick
+        id: im
+        run: |
+          if command -v magick >/dev/null 2>&1; then
+            echo "bin=magick" >> "$GITHUB_OUTPUT"
+          elif command -v convert >/dev/null 2>&1; then
+            echo "bin=convert" >> "$GITHUB_OUTPUT"
+          else
+            sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
+            echo "bin=convert" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Download photos listed in photos.txt
         env:
           FORCE: ${{ inputs.force_refetch }}
+          SWEEP: ${{ inputs.optimize_existing }}
+          IM: ${{ steps.im.outputs.bin }}
         run: |
           set -uo pipefail
 
@@ -32,6 +50,38 @@ jobs:
           failed=0
           added=0
           skipped=0
+
+          # Shrink to fit an 800px box (the card renders it in a 200x200 box, so this
+          # leaves 4x headroom for retina and any future layout change), strip EXIF,
+          # and re-encode as a progressive JPEG. Only replaces the file if the result
+          # is actually smaller, so already-optimized images are left alone.
+          optimize() {
+            local f="$1"
+            case "$f" in
+              *.jpg|*.jpeg|*.JPG|*.JPEG) ;;
+              *) return 0 ;;
+            esac
+            [ -f "$f" ] || return 0
+
+            local tmp="${f}.opt"
+            if ! "$IM" "$f" -auto-orient -strip -resize '800x800>' -quality 82 -interlace Plane "JPEG:$tmp" 2>/dev/null; then
+              echo "::warning::ImageMagick failed on $f - keeping the original"
+              rm -f "$tmp"
+              return 0
+            fi
+
+            local before after
+            before=$(stat -c%s "$f")
+            after=$(stat -c%s "$tmp")
+
+            if [ "$after" -lt "$before" ]; then
+              mv "$tmp" "$f"
+              echo "       optimized $f: $before -> $after bytes"
+            else
+              rm -f "$tmp"
+              echo "       kept original $f ($before bytes, already optimal)"
+            fi
+          }
 
           while read -r filename url rest || [ -n "${filename:-}" ]; do
             case "${filename:-}" in ''|'#'*) continue ;; esac
@@ -68,11 +118,24 @@ jobs:
                 ;;
             esac
 
-            # Only overwrite an existing photo once the new one is known good.
+            # Optimize while still in the temp dir, so a bad result can never
+            # clobber a good photo already in the repo.
+            optimize "$tmp"
+
             mv "$tmp" "$filename"
             echo "ok     $filename ($mime)"
             added=$((added + 1))
           done < photos.txt
+
+          # One-off sweep: re-compress every .jpg already committed, including the
+          # hand-uploaded ones that have no source URL and so aren't in the manifest.
+          if [ "$SWEEP" = "true" ]; then
+            echo "--- optimizing existing images ---"
+            for f in *.jpg *.jpeg; do
+              [ -e "$f" ] || continue
+              optimize "$f"
+            done
+          fi
 
           rm -rf .photo-tmp
           echo "--- fetched: $added   skipped: $skipped ---"
@@ -82,17 +145,17 @@ jobs:
             exit 1
           fi
 
-      - name: Commit any new photos
+      - name: Commit any new or optimized photos
         if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if [ -z "$(git status --porcelain)" ]; then
-            echo "No new photos to commit."
+            echo "Nothing to commit."
             exit 0
           fi
 
           git add -A
-          git commit -m "Add recipe photos from photos.txt manifest"
+          git commit -m "Add/optimize recipe photos from photos.txt manifest"
           git push
