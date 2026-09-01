@@ -6,31 +6,22 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap">
 <title>One-Pot Toddler Pasta</title>
 <style>
+  * { box-sizing: border-box; }
+  html, body { overflow-x: hidden; }
   @media print {
-    .no-print { display: none !important; }
     a { color: #ae1800 !important; }
     .page { break-after: page; break-inside: avoid; }
     @page { size: letter; margin: 0; }
     body { margin: 0; }
+    .no-print { display: none !important; }
   }
-  body { margin: 0; background: #e0e0e0; font-family: 'Archivo', system-ui, sans-serif; }
-  .page {
+  body {
+    margin: 0;
+    background: #e0e0e0;
     font-family: 'Archivo', system-ui, sans-serif;
-    color: #201e1d;
-    background: #f3f2f2;
-    display: flex;
-    flex-direction: column;
-    padding: 60px 64px;
-    width: 8.5in;
-    min-height: 11in;
-    box-sizing: border-box;
-    margin: 0 auto;
   }
-  .page + .page { margin-top: 8px; }
-  @media print { .page + .page { margin-top: 0; } }
 
-  * { box-sizing: border-box; }
-  html, body { overflow-x: hidden; }
+  /* ---- Site Nav (identical to index) ---- */
   .site-nav {
     background: #201e1d;
     width: 100%;
@@ -91,6 +82,23 @@
     border-radius: 3px;
   }
   .dropdown-menu a:hover { background: #ae1800; color: #fff; }
+
+
+  .page {
+    font-family: 'Archivo', system-ui, sans-serif;
+    color: #201e1d;
+    background: #f3f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 64px;
+    width: 8.5in;
+    min-height: 11in;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  .page + .page { margin-top: 8px; }
+  @media print { .page + .page { margin-top: 0; } }
+
   .category-link { color: #ae1800; text-decoration: none; }
   .category-link:hover { text-decoration: underline; }
 </style>
@@ -119,14 +127,14 @@
 <!-- PAGE 1 -->
 <section class="page">
 
-    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:0;">
     <div style="flex:1;min-width:0;">
       <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;margin-bottom:10px;">
         <a class="category-link" href="index.html?category=Lunch">Lunch</a>
         <span style="color:rgba(32,30,29,0.4);"> &middot; </span>
         <a class="category-link" href="index.html?category=Dinner">Dinner</a>
       </div>
-      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:48px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">One-Pot Toddler Pasta</h1>
+      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:52px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">One-Pot Toddler Pasta</h1>
       <p style="font-size:16px;line-height:1.5;margin:0;max-width:560px;color:#443f3e;">A simple, one-pot pasta cooked right in broth for a creamy, kid-approved meal.</p>
     </div>
     <div style="flex:none;width:200px;height:200px;">
@@ -134,9 +142,7 @@
     </div>
   </div>
 
-  <div style="height:24px;"></div>
-
-  <div style="display:flex;align-items:stretch;gap:0;margin-bottom:28px;">
+  <div style="display:flex;align-items:stretch;gap:0;margin:24px 0 28px;">
     <div style="padding-right:20px;">
       <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#605d5d;margin-bottom:4px;">Serves</div>
       <div style="font-size:18px;font-weight:800;">4</div>
@@ -164,13 +170,13 @@
 
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;flex:1;">
     <div style="padding-right:32px;">
-      <h3 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;">Pasta & Veggies</h3>
+      <h3 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;">Pasta &amp; Veggies</h3>
       <div style="font-size:12px;color:#605d5d;margin-bottom:16px;">Cooked together in one pot</div>
       <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;">
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Alphabet pasta (or any short-cut pasta)</span><span style="font-weight:800;color:#ae1800;">4 oz</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Chicken bone broth</span><span style="font-weight:800;color:#ae1800;">1⅓ cups</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Carrot, shredded</span><span style="font-weight:800;color:#ae1800;">1</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Frozen peas</span><span style="font-weight:800;color:#ae1800;">½ cup</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Frozen peas</span><span style="font-weight:800;color:#ae1800;">½ cup</span></li>
       </ul>
       <p style="font-size:12px;font-style:italic;color:#605d5d;margin:16px 0 0;line-height:1.5;">Regular broth, stock, or even water works if you don't have bone broth on hand.</p>
     </div>
@@ -180,7 +186,7 @@
       <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;">
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Butter</span><span style="font-weight:800;color:#ae1800;">1 tbsp</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Heavy cream</span><span style="font-weight:800;color:#ae1800;">1 tbsp</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>White cheddar, shredded</span><span style="font-weight:800;color:#ae1800;">1 oz</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>White cheddar, shredded</span><span style="font-weight:800;color:#ae1800;">1 oz</span></li>
       </ul>
     </div>
   </div>
@@ -205,7 +211,7 @@
       </ol>
     </div>
     <div style="padding-left:32px;border-left:2px solid rgba(32,30,29,0.4);">
-      <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#ae1800;font-weight:800;margin-bottom:14px;">Finish & Serve</div>
+      <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#ae1800;font-weight:800;margin-bottom:14px;">Finish &amp; Serve</div>
       <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px;">
         <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">1</span><span>Stir in the butter, cream, and cheese until well-combined and creamy.</span></li>
         <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">2</span><span>Add salt and pepper, if desired, and serve immediately.</span></li>

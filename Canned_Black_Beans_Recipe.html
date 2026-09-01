@@ -6,31 +6,22 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap">
 <title>How to Cook Canned Black Beans</title>
 <style>
+  * { box-sizing: border-box; }
+  html, body { overflow-x: hidden; }
   @media print {
-    .no-print { display: none !important; }
     a { color: #ae1800 !important; }
     .page { break-after: page; break-inside: avoid; }
     @page { size: letter; margin: 0; }
     body { margin: 0; }
+    .no-print { display: none !important; }
   }
-  body { margin: 0; background: #e0e0e0; font-family: 'Archivo', system-ui, sans-serif; }
-  .page {
+  body {
+    margin: 0;
+    background: #e0e0e0;
     font-family: 'Archivo', system-ui, sans-serif;
-    color: #201e1d;
-    background: #f3f2f2;
-    display: flex;
-    flex-direction: column;
-    padding: 60px 64px;
-    width: 8.5in;
-    min-height: 11in;
-    box-sizing: border-box;
-    margin: 0 auto;
   }
-  .page + .page { margin-top: 8px; }
-  @media print { .page + .page { margin-top: 0; } }
 
-  * { box-sizing: border-box; }
-  html, body { overflow-x: hidden; }
+  /* ---- Site Nav (identical to index) ---- */
   .site-nav {
     background: #201e1d;
     width: 100%;
@@ -91,6 +82,23 @@
     border-radius: 3px;
   }
   .dropdown-menu a:hover { background: #ae1800; color: #fff; }
+
+
+  .page {
+    font-family: 'Archivo', system-ui, sans-serif;
+    color: #201e1d;
+    background: #f3f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 64px;
+    width: 8.5in;
+    min-height: 11in;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  .page + .page { margin-top: 8px; }
+  @media print { .page + .page { margin-top: 0; } }
+
   .category-link { color: #ae1800; text-decoration: none; }
   .category-link:hover { text-decoration: underline; }
 </style>
@@ -119,12 +127,12 @@
 <!-- PAGE 1 -->
 <section class="page">
 
-    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:0;">
     <div style="flex:1;min-width:0;">
       <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;margin-bottom:10px;">
         <a class="category-link" href="index.html?category=Sides">Sides</a>
       </div>
-      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:48px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">How to Cook Canned Black Beans</h1>
+      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:52px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">How to Cook Canned Black Beans</h1>
       <p style="font-size:16px;line-height:1.5;margin:0;max-width:560px;color:#443f3e;">An easy way to season canned black beans into a flavorful side dish in under 20 minutes.</p>
     </div>
     <div style="flex:none;width:200px;height:200px;">
@@ -132,9 +140,7 @@
     </div>
   </div>
 
-  <div style="height:24px;"></div>
-
-  <div style="display:flex;align-items:stretch;gap:0;margin-bottom:28px;">
+  <div style="display:flex;align-items:stretch;gap:0;margin:24px 0 28px;">
     <div style="padding-right:20px;">
       <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#605d5d;margin-bottom:4px;">Serves</div>
       <div style="font-size:18px;font-weight:800;">4</div>
@@ -162,7 +168,7 @@
 
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;flex:1;">
     <div style="padding-right:32px;">
-      <h3 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;">Aromatics & Seasoning</h3>
+      <h3 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;">Aromatics &amp; Seasoning</h3>
       <div style="font-size:12px;color:#605d5d;margin-bottom:16px;">Sautéed first to build flavor</div>
       <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;">
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Olive oil</span><span style="font-weight:800;color:#ae1800;">1 tbsp</span></li>
@@ -172,18 +178,18 @@
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Garlic, minced</span><span style="font-weight:800;color:#ae1800;">1 tsp</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Ground cumin</span><span style="font-weight:800;color:#ae1800;">½ tsp</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Dried oregano</span><span style="font-weight:800;color:#ae1800;">¼ tsp</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Smoked paprika</span><span style="font-weight:800;color:#ae1800;">¼ tsp</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Smoked paprika</span><span style="font-weight:800;color:#ae1800;">¼ tsp</span></li>
       </ul>
       <p style="font-size:12px;font-style:italic;color:#605d5d;margin:16px 0 0;line-height:1.5;">Garlic is about 2 minced cloves. Leave jalapeño seeds and veins in for more heat, or remove for mild.</p>
     </div>
     <div style="padding-left:32px;border-left:2px solid rgba(32,30,29,0.4);">
-      <h3 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;">Beans & Finishing</h3>
+      <h3 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;">Beans &amp; Finishing</h3>
       <div style="font-size:12px;color:#605d5d;margin-bottom:16px;">Added after the aromatics soften</div>
       <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;">
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Black beans, 15-oz can</span><span style="font-weight:800;color:#ae1800;">1</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Lime juice</span><span style="font-weight:800;color:#ae1800;">1 tbsp</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Salt</span><span style="font-weight:800;color:#ae1800;">to taste</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Cilantro, chopped (optional)</span><span style="font-weight:800;color:#ae1800;">for serving</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Cilantro, chopped (optional)</span><span style="font-weight:800;color:#ae1800;">for serving</span></li>
       </ul>
       <p style="font-size:12px;font-style:italic;color:#605d5d;margin:16px 0 0;line-height:1.5;">No-salt-added beans are recommended so you can control seasoning. Lime juice is about ½ lime.</p>
     </div>
@@ -209,7 +215,7 @@
       </ol>
     </div>
     <div style="padding-left:32px;border-left:2px solid rgba(32,30,29,0.4);">
-      <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#ae1800;font-weight:800;margin-bottom:14px;">Add Beans & Finish</div>
+      <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#ae1800;font-weight:800;margin-bottom:14px;">Add Beans &amp; Finish</div>
       <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px;">
         <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">1</span><span>Add the can of black beans, including the liquid (do not drain). Stir and bring to a simmer. For a soupier consistency, add water or broth to taste.</span></li>
         <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">2</span><span>Remove from heat and stir in lime juice and salt to taste.</span></li>

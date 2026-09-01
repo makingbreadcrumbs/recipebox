@@ -21,19 +21,68 @@
     font-family: 'Archivo', system-ui, sans-serif;
   }
 
-  /* ---- Site Nav (identical across every page) ---- */
-  .site-nav { background: #201e1d; width: 100%; position: sticky; top: 0; z-index: 100; }
-  .nav-inner { max-width: 980px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; height: 60px; }
-  .nav-brand { font-weight: 800; font-size: 17px; letter-spacing: -0.01em; color: #fff; text-decoration: none; }
+  /* ---- Site Nav (identical to index) ---- */
+  .site-nav {
+    background: #201e1d;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-inner {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+  .nav-brand {
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: -0.01em;
+    color: #fff;
+    text-decoration: none;
+  }
   .nav-links { display: flex; align-items: center; gap: 8px; height: 100%; }
-  .nav-link { font-size: 13px; font-weight: 800; letter-spacing: 0.03em; text-transform: uppercase; text-decoration: none; color: rgba(255,255,255,0.85); padding: 10px 14px; border-radius: 4px; transition: background 0.15s, color 0.15s; }
+  .nav-link {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255,255,255,0.85);
+    padding: 10px 14px;
+    border-radius: 4px;
+    transition: background 0.15s, color 0.15s;
+  }
   .nav-link:hover { background: rgba(255,255,255,0.1); color: #fff; }
   .nav-item { position: relative; height: 100%; display: flex; align-items: center; }
   .nav-caret { font-size: 10px; margin-left: 3px; opacity: 0.7; }
-  .dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: #f3f2f2; border: 1px solid rgba(32,30,29,0.15); min-width: 160px; padding: 6px; box-shadow: 0 8px 20px rgba(0,0,0,0.25); }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f3f2f2;
+    border: 1px solid rgba(32,30,29,0.15);
+    min-width: 160px;
+    padding: 6px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  }
   .nav-item:hover .dropdown-menu { display: block; }
-  .dropdown-menu a { display: block; font-size: 13px; font-weight: 600; color: #201e1d; text-decoration: none; padding: 9px 12px; border-radius: 3px; }
+  .dropdown-menu a {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #201e1d;
+    text-decoration: none;
+    padding: 9px 12px;
+    border-radius: 3px;
+  }
   .dropdown-menu a:hover { background: #ae1800; color: #fff; }
+
 
   .page {
     font-family: 'Archivo', system-ui, sans-serif;
@@ -78,14 +127,14 @@
 <!-- PAGE 1 -->
 <section class="page">
 
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:0;">
     <div style="flex:1;min-width:0;">
       <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;margin-bottom:10px;">
         <a class="category-link" href="index.html?category=Lunch">Lunch</a>
         <span style="color:rgba(32,30,29,0.4);"> &middot; </span>
         <a class="category-link" href="index.html?category=Dinner">Dinner</a>
       </div>
-      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:46px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">Korean Ground Beef and Rice Bowls</h1>
+      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:52px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">Korean Ground Beef and Rice Bowls</h1>
       <p style="font-size:16px;line-height:1.5;margin:0;max-width:560px;color:#443f3e;">A 20-minute weeknight bowl — ground beef in a sweet-savory soy and sesame sauce over hot rice.</p>
     </div>
     <div style="flex:none;width:200px;height:200px;">
@@ -129,7 +178,7 @@
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Sesame oil</span><span style="font-weight:800;color:#ae1800;">2 tsp</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Ground ginger</span><span style="font-weight:800;color:#ae1800;">1/4 tsp</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Crushed red pepper flakes</span><span style="font-weight:800;color:#ae1800;">1/4 tsp</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Black pepper</span><span style="font-weight:800;color:#ae1800;">1/4 tsp</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Black pepper</span><span style="font-weight:800;color:#ae1800;">1/4 tsp</span></li>
       </ul>
     </div>
     <div style="padding-left:32px;border-left:2px solid rgba(32,30,29,0.4);">
@@ -139,7 +188,7 @@
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Lean ground beef (90% lean)</span><span style="font-weight:800;color:#ae1800;">1 lb</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Garlic cloves, minced</span><span style="font-weight:800;color:#ae1800;">3</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Hot cooked white or brown rice</span><span style="font-weight:800;color:#ae1800;">2 cups</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Sliced green onions &amp; sesame seeds</span><span style="font-weight:800;color:#ae1800;">to garnish</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Sliced green onions &amp; sesame seeds</span><span style="font-weight:800;color:#ae1800;">to garnish</span></li>
       </ul>
       <p style="font-size:12px;font-style:italic;color:#605d5d;margin:16px 0 0;line-height:1.5;">White, brown, and jasmine rice all work well here.</p>
     </div>

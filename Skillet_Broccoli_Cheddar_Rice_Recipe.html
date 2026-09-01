@@ -6,31 +6,22 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap">
 <title>Skillet Broccoli-Cheddar Rice</title>
 <style>
+  * { box-sizing: border-box; }
+  html, body { overflow-x: hidden; }
   @media print {
-    .no-print { display: none !important; }
     a { color: #ae1800 !important; }
     .page { break-after: page; break-inside: avoid; }
     @page { size: letter; margin: 0; }
     body { margin: 0; }
+    .no-print { display: none !important; }
   }
-  body { margin: 0; background: #e0e0e0; font-family: 'Archivo', system-ui, sans-serif; }
-  .page {
+  body {
+    margin: 0;
+    background: #e0e0e0;
     font-family: 'Archivo', system-ui, sans-serif;
-    color: #201e1d;
-    background: #f3f2f2;
-    display: flex;
-    flex-direction: column;
-    padding: 60px 64px;
-    width: 8.5in;
-    min-height: 11in;
-    box-sizing: border-box;
-    margin: 0 auto;
   }
-  .page + .page { margin-top: 8px; }
-  @media print { .page + .page { margin-top: 0; } }
 
-  * { box-sizing: border-box; }
-  html, body { overflow-x: hidden; }
+  /* ---- Site Nav (identical to index) ---- */
   .site-nav {
     background: #201e1d;
     width: 100%;
@@ -91,6 +82,23 @@
     border-radius: 3px;
   }
   .dropdown-menu a:hover { background: #ae1800; color: #fff; }
+
+
+  .page {
+    font-family: 'Archivo', system-ui, sans-serif;
+    color: #201e1d;
+    background: #f3f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 64px;
+    width: 8.5in;
+    min-height: 11in;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  .page + .page { margin-top: 8px; }
+  @media print { .page + .page { margin-top: 0; } }
+
   .category-link { color: #ae1800; text-decoration: none; }
   .category-link:hover { text-decoration: underline; }
 </style>
@@ -119,14 +127,14 @@
 <!-- PAGE 1 -->
 <section class="page">
 
-    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:0;">
     <div style="flex:1;min-width:0;">
       <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;font-weight:800;margin-bottom:10px;">
         <a class="category-link" href="index.html?category=Dinner">Dinner</a>
         <span style="color:rgba(32,30,29,0.4);"> &middot; </span>
         <a class="category-link" href="index.html?category=Sides">Sides</a>
       </div>
-      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:48px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">Skillet Broccoli-Cheddar Rice</h1>
+      <h1 style="font-family:'Archivo',system-ui,sans-serif;font-weight:800;font-size:52px;line-height:1.05;letter-spacing:-0.02em;margin:0 0 10px;">Skillet Broccoli-Cheddar Rice</h1>
       <p style="font-size:16px;line-height:1.5;margin:0;max-width:560px;color:#443f3e;">Buttery rice, tender broccoli, and a broiled cheddar crust — all from one pan.</p>
     </div>
     <div style="flex:none;width:200px;height:200px;">
@@ -134,9 +142,7 @@
     </div>
   </div>
 
-  <div style="height:24px;"></div>
-
-  <div style="display:flex;align-items:stretch;gap:0;margin-bottom:28px;">
+  <div style="display:flex;align-items:stretch;gap:0;margin:24px 0 28px;">
     <div style="padding-right:20px;">
       <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:#605d5d;margin-bottom:4px;">Serves</div>
       <div style="font-size:18px;font-weight:800;">4</div>
@@ -171,8 +177,8 @@
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Yellow onion, finely chopped</span><span style="font-weight:800;color:#ae1800;">1</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Garlic cloves, thinly sliced</span><span style="font-weight:800;color:#ae1800;">3</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Long-grain white rice</span><span style="font-weight:800;color:#ae1800;">1 cup</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Water</span><span style="font-weight:800;color:#ae1800;">1&frac34; cups</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Salt</span><span style="font-weight:800;color:#ae1800;">to taste</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Water</span><span style="font-weight:800;color:#ae1800;">1¾ cups</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Salt</span><span style="font-weight:800;color:#ae1800;">to taste</span></li>
       </ul>
       <p style="font-size:12px;font-style:italic;color:#605d5d;margin:16px 0 0;line-height:1.5;">About 1 tsp Diamond Crystal kosher salt for the rice. Use an oven-safe skillet or Dutch oven with a lid.</p>
     </div>
@@ -183,7 +189,7 @@
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Broccoli stem, coarsely chopped</span><span style="font-weight:800;color:#ae1800;">1 large head</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Broccoli florets, 1-inch pieces</span><span style="font-weight:800;color:#ae1800;">(same head)</span></li>
         <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Sharp cheddar, grated</span><span style="font-weight:800;color:#ae1800;">4 oz (1 cup)</span></li>
-        <li style="display:flex;justify-content:space-between;font-size:14px;padding-bottom:10px;"><span>Hot sauce, for serving</span><span style="font-weight:800;color:#ae1800;">optional</span></li>
+        <li style="display:flex;justify-content:space-between;font-size:14px;border-bottom:1px solid rgba(32,30,29,0.2);padding-bottom:10px;"><span>Hot sauce, for serving</span><span style="font-weight:800;color:#ae1800;">optional</span></li>
       </ul>
     </div>
   </div>
@@ -204,7 +210,7 @@
       <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#ae1800;font-weight:800;margin-bottom:14px;">Cook the Rice</div>
       <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px;">
         <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">1</span><span>Melt butter in a large Dutch oven or oven-safe skillet over medium heat. Add onion, garlic, and chopped broccoli stem. Season with salt and cook, stirring occasionally, until softened but not browned, 5–7 minutes.</span></li>
-        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">2</span><span>Add rice and 1&frac34; cups water. Season with salt (about 1 tsp Diamond Crystal). Bring to a boil, cover, reduce heat to low, and simmer for 10 minutes.</span></li>
+        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">2</span><span>Add rice and 1¾ cups water. Season with salt (about 1 tsp Diamond Crystal). Bring to a boil, cover, reduce heat to low, and simmer for 10 minutes.</span></li>
         <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;"><span style="font-weight:800;color:#ae1800;flex:none;">3</span><span>Working quickly, scatter broccoli florets on top of the rice and season with a pinch of salt. Cover and cook until rice is tender and broccoli is bright green, 8–10 more minutes. Turn off heat and rest, covered, for 5 minutes.</span></li>
       </ol>
     </div>
