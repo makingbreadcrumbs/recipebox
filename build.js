@@ -70,18 +70,18 @@ function ingredients(groups) {
   }).join('\n');
 }
 
+// Step numbers restart at 1 in each direction group (they read as two
+// separate phases, not one continuous list).
 function directions(groups) {
-  var n = 1;
   return groups.map(function (g, i) {
     var wrap = i === 1
       ? 'padding-left:32px;border-left:2px solid rgba(32,30,29,0.4);'
       : 'padding-right:32px;';
     var steps = g.steps.map(function (s, j) {
       return '        <li style="display:flex;gap:12px;font-size:14px;line-height:1.55;">'
-        + '<span style="font-weight:800;color:#ae1800;flex:none;">' + (n + j) + '</span>'
+        + '<span style="font-weight:800;color:#ae1800;flex:none;">' + (j + 1) + '</span>'
         + '<span>' + s + '</span></li>';
     }).join('\n');
-    n += g.steps.length;
     return '    <div style="' + wrap + '">\n'
       + '      <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;'
       + 'color:#ae1800;font-weight:800;margin-bottom:14px;">' + g.label + '</div>\n'
