@@ -1,0 +1,1386 @@
+{
+  "recipes": [
+    {
+      "slug": "Air_Fryer_Salmon",
+      "title": "Air Fryer Salmon",
+      "subtitle": "An air-fryer staple with under 5 simple ingredients, a quick cook time, and great nutrition.",
+      "categories": [
+        "Lunch",
+        "Dinner"
+      ],
+      "tags": [
+        "Seafood"
+      ],
+      "desc": "An air-fryer staple with under 5 simple ingredients, a quick cook time, and great nutrition.",
+      "dateAdded": "2026-08-12",
+      "photo": "Air_Fryer_Salmon_Recipe.jpg",
+      "alt": "Air-fried salmon filet topped with sesame seeds",
+      "serves": "2",
+      "prep": "5 min",
+      "cook": "12 min",
+      "difficulty": "Easy",
+      "story": "Salmon in the air fryer doesn't get much simpler — brush a filet with olive oil, season, and air fry for about 12 minutes. The key is leaving the skin on while it cooks: it keeps the juices locked in and prevents the salmon from drying out. Great as a toddler-friendly first fish, and just as easy to marinate in teriyaki or bbq sauce for extra flavor.",
+      "ingredientGroups": [
+        {
+          "name": "The Salmon",
+          "note": "Brushed and seasoned before air frying",
+          "items": [
+            {
+              "name": "Salmon filet, skin on",
+              "qty": "1"
+            },
+            {
+              "name": "Extra virgin olive oil",
+              "qty": "to brush"
+            },
+            {
+              "name": "Salt, pepper, garlic powder",
+              "qty": "sprinkle"
+            }
+          ],
+          "footnote": "Recipe yields 2 filets — use one filet per serving, scaling seasoning to taste."
+        },
+        {
+          "name": "Finishing",
+          "note": "Added right before and after cooking",
+          "items": [
+            {
+              "name": "Avocado oil spray",
+              "qty": "light spray"
+            },
+            {
+              "name": "Sesame seeds, for garnish (optional)",
+              "qty": "to taste"
+            }
+          ],
+          "footnote": null
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Prep &amp; Season",
+          "steps": [
+            "Preheat air fryer to 380°F.",
+            "Brush salmon filet with olive oil and sprinkle with a dash of salt, pepper, and garlic powder.",
+            "Spray lightly with avocado oil."
+          ]
+        },
+        {
+          "label": "Air Fry &amp; Serve",
+          "steps": [
+            "Air fry skin-side down for about 12 minutes, until the thickest part reaches 145°F.",
+            "Let cool slightly, garnish with sesame seeds if desired, and serve. Store leftovers in an air-tight container in the fridge for 2–3 days."
+          ]
+        }
+      ],
+      "tips": [
+        "Leave the skin on while cooking — it keeps the salmon from drying out. Remove it after cooking if you prefer.",
+        "Cook times vary by air fryer; start checking around 10 minutes and pull once the thickest part hits 145°F.",
+        "For extra flavor, marinate the salmon a few hours ahead in teriyaki or bbq sauce instead of the olive oil and seasoning."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Jansu, My Toddler's Kitchen",
+      "sourceUrl": "https://www.mytoddlerskitchen.com/recipes/airfryer-salmon",
+      "creditRaw": null
+    },
+    {
+      "slug": "Canned_Black_Beans",
+      "title": "How to Cook Canned Black Beans",
+      "subtitle": "An easy way to season canned black beans into a flavorful side dish in under 20 minutes.",
+      "categories": [
+        "Sides"
+      ],
+      "tags": [
+        "Mexican"
+      ],
+      "desc": "An easy way to season canned black beans into a flavorful side dish in under 20 minutes.",
+      "dateAdded": "2026-07-29",
+      "photo": "Canned_Black_Beans_Recipe.jpg",
+      "alt": "Cooked canned black beans with tomatoes, onions and garlic",
+      "serves": "4",
+      "prep": "10 min",
+      "cook": "8 min",
+      "difficulty": "Easy",
+      "story": "If you've got a can of black beans and a few pantry staples like onion, tomato, and garlic, you've got everything you need for a side dish that tastes nothing like beans straight from the can. The whole process takes under 20 minutes. Serve alongside rice, tacos, enchiladas, or fajitas — or eat them on their own with tortilla chips and cheese.",
+      "ingredientGroups": [
+        {
+          "name": "Aromatics &amp; Seasoning",
+          "note": "Sautéed first to build flavor",
+          "items": [
+            {
+              "name": "Olive oil",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Onion, minced",
+              "qty": "½ large"
+            },
+            {
+              "name": "Plum tomato, minced",
+              "qty": "1"
+            },
+            {
+              "name": "Jalapeño, minced (optional)",
+              "qty": "1"
+            },
+            {
+              "name": "Garlic, minced",
+              "qty": "1 tsp"
+            },
+            {
+              "name": "Ground cumin",
+              "qty": "½ tsp"
+            },
+            {
+              "name": "Dried oregano",
+              "qty": "¼ tsp"
+            },
+            {
+              "name": "Smoked paprika",
+              "qty": "¼ tsp"
+            }
+          ],
+          "footnote": "Garlic is about 2 minced cloves. Leave jalapeño seeds and veins in for more heat, or remove for mild."
+        },
+        {
+          "name": "Beans &amp; Finishing",
+          "note": "Added after the aromatics soften",
+          "items": [
+            {
+              "name": "Black beans, 15-oz can",
+              "qty": "1"
+            },
+            {
+              "name": "Lime juice",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "qty": "to taste"
+            },
+            {
+              "name": "Cilantro, chopped (optional)",
+              "qty": "for serving"
+            }
+          ],
+          "footnote": "No-salt-added beans are recommended so you can control seasoning. Lime juice is about ½ lime."
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Build the Flavor Base",
+          "steps": [
+            "Heat oil in a medium saucepan over medium-high heat.",
+            "Add onion, tomato, jalapeño (if using), garlic, cumin, oregano, and smoked paprika. Stir and sauté for 5 minutes, until onions have softened and turned translucent."
+          ]
+        },
+        {
+          "label": "Add Beans &amp; Finish",
+          "steps": [
+            "Add the can of black beans, including the liquid (do not drain). Stir and bring to a simmer. For a soupier consistency, add water or broth to taste.",
+            "Remove from heat and stir in lime juice and salt to taste.",
+            "Garnish with chopped cilantro and serve."
+          ]
+        }
+      ],
+      "tips": [
+        "Use the whole can including the liquid — it carries a lot of flavor and helps build the sauce.",
+        "Leftovers keep about 4 days refrigerated; great stirred into rice bowls or spooned over tacos.",
+        "No jalapeño on hand? A pinch of cayenne or a dash of hot sauce works as a swap."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Isabel Orozco-Moore, Isabel Eats",
+      "sourceUrl": "https://www.isabeleats.com/how-to-cook-canned-black-beans/",
+      "creditRaw": null
+    },
+    {
+      "slug": "Chinese_Style_Instant_Pot_Shredded_Chicken",
+      "title": "Chinese-Style Instant Pot Shredded Chicken",
+      "subtitle": "A meal-prep staple — juicy shredded chicken in a savory oyster sauce, ready in about 20 minutes of Instant Pot time.",
+      "categories": [
+        "Lunch",
+        "Dinner"
+      ],
+      "tags": [
+        "Chicken",
+        "Chinese",
+        "Instant Pot",
+        "Meal Prep"
+      ],
+      "desc": "A meal-prep staple — juicy shredded chicken in a savory oyster sauce, ready in about 20 minutes of Instant Pot time.",
+      "dateAdded": "2026-08-13",
+      "photo": "Chinese_Style_Instant_Pot_Shredded_Chicken_Recipe.jpg",
+      "alt": "Chinese-style Instant Pot shredded chicken in a bowl",
+      "serves": "4–6",
+      "prep": "5 min",
+      "cook": "15 min",
+      "difficulty": "Easy",
+      "story": "This Chinese-style shredded chicken leans on oyster sauce instead of the honey or bbq sauce found in most Instant Pot chicken recipes, giving it a savory, umami-rich coating rather than a sweet one. Mix the sauce right in the pot, add the chicken, and let the Instant Pot do the work — a big batch keeps in the fridge for days and freezes well, making it an easy Sunday meal-prep staple for rice bowls, noodle soups, salads, and wraps all week.",
+      "ingredientGroups": [
+        {
+          "name": "The Sauce",
+          "note": "Mixed directly in the Instant Pot",
+          "items": [
+            {
+              "name": "Oyster sauce",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Soy sauce",
+              "qty": "2 tbsp"
+            },
+            {
+              "name": "Rice vinegar",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Ginger, grated",
+              "qty": "1 tsp"
+            },
+            {
+              "name": "Garlic, grated",
+              "qty": "2 cloves"
+            },
+            {
+              "name": "Ground black pepper",
+              "qty": "1/4 tsp"
+            }
+          ],
+          "footnote": null
+        },
+        {
+          "name": "The Chicken",
+          "note": "Pressure-cooked, then shredded",
+          "items": [
+            {
+              "name": "Boneless, skinless chicken breasts (or thighs)",
+              "qty": "2 lbs"
+            },
+            {
+              "name": "Green onion, chopped, for garnish (optional)",
+              "qty": "to taste"
+            }
+          ],
+          "footnote": "Thighs stay juicier if slightly overcooked; breasts give leaner, cleaner shreds."
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Mix &amp; Cook",
+          "steps": [
+            "Add the oyster sauce, soy sauce, rice vinegar, ginger, garlic, and black pepper directly into the Instant Pot. Stir to combine.",
+            "Add the chicken and toss to coat with the sauce, spreading the pieces out with minimal overlap.",
+            "Close the lid, seal the valve, select manual/pressure cook on high, and set the timer for 10 minutes (7–8 minutes for smaller breasts)."
+          ]
+        },
+        {
+          "label": "Release &amp; Shred",
+          "steps": [
+            "When cooking is done, let the pressure release naturally for 5 minutes, then quick release the rest.",
+            "Open the lid and let cool a few minutes, then shred the chicken directly in the pot with two forks.",
+            "Toss the shredded chicken with the sauce until coated. Serve hot over rice or noodles, or let cool and store for the week."
+          ]
+        }
+      ],
+      "tips": [
+        "Chicken thighs are more forgiving for meal prep — they stay tender even if the timing runs slightly over.",
+        "Frozen chicken works fine — add it straight from frozen and increase the pressure cook time to 15 minutes.",
+        "If the sauce is thin after shredding, switch to sauté and stir in a cornstarch slurry to thicken it in about a minute."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Maggie Zhu, Omnivore's Cookbook",
+      "sourceUrl": "https://omnivorescookbook.com/chinese-style-instant-pot-shredded-chicken/",
+      "creditRaw": null
+    },
+    {
+      "slug": "Instant_Pot_Braised_Chicken",
+      "title": "Instant Pot Braised Chicken",
+      "subtitle": "A quick Chinese-style braised chicken in a dark soy and 5-spice sauce, pressure-cooked in under 40 minutes.",
+      "categories": [
+        "Lunch",
+        "Dinner"
+      ],
+      "tags": [
+        "Chicken",
+        "Chinese",
+        "Instant Pot"
+      ],
+      "desc": "A quick Chinese-style braised chicken in a dark soy and 5-spice sauce, pressure-cooked in under 40 minutes.",
+      "dateAdded": "2026-08-12",
+      "photo": "Instant_Pot_Braised_Chicken_Recipe.jpg",
+      "alt": "Chinese braised chicken drumsticks in dark soy sauce",
+      "serves": "5",
+      "prep": "5 min",
+      "cook": "17 min",
+      "difficulty": "Easy",
+      "story": "Inspired by Cynthia's mom's stovetop version, this Chinese-style braised chicken gets a savory-sweet glaze from dark soy sauce, brown sugar, and Chinese 5-spice, then finishes with quick-cooked vegetables and a cornstarch-thickened sauce. The Instant Pot turns a 30–45 minute simmer into about 12 minutes of pressure cooking, and it reheats well for lunch the next day.",
+      "ingredientGroups": [
+        {
+          "name": "The Chicken",
+          "note": "Marinated, then browned and pressure cooked",
+          "items": [
+            {
+              "name": "Chicken drumsticks (or bone-in thighs)",
+              "qty": "10"
+            },
+            {
+              "name": "Dark soy sauce",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Water",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Chinese 5-spice",
+              "qty": "3 tbsp"
+            },
+            {
+              "name": "Sesame oil",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Light soy sauce",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Granulated garlic (or garlic powder)",
+              "qty": "1 tsp"
+            },
+            {
+              "name": "Brown sugar",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "White pepper (optional)",
+              "qty": "to taste"
+            }
+          ],
+          "footnote": "Brown sugar is optional if you're watching sugar intake — the dish still works without it."
+        },
+        {
+          "name": "Vegetables &amp; Finishing",
+          "note": "Added after pressure cooking the chicken",
+          "items": [
+            {
+              "name": "Broccoli, cut into florets",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Carrots, peeled and chopped",
+              "qty": "2"
+            },
+            {
+              "name": "Bell pepper, chopped",
+              "qty": "1"
+            },
+            {
+              "name": "Vegetable oil, for browning",
+              "qty": "1–2 tbsp"
+            },
+            {
+              "name": "Cornstarch, for the slurry",
+              "qty": "1 tbsp"
+            }
+          ],
+          "footnote": null
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Marinate &amp; Brown",
+          "steps": [
+            "Marinate the chicken with the dark soy sauce, brown sugar, light soy sauce, garlic, sesame oil, Chinese 5-spice, and pepper. Let sit for 5 minutes.",
+            "Set the Instant Pot to sauté and wait until it says hot. Add 1–2 tbsp vegetable oil.",
+            "Add the marinated chicken to the pot (reserve the leftover sauce) and brown on all sides, turning as needed — it's fine to pile pieces on top of each other."
+          ]
+        },
+        {
+          "label": "Pressure Cook &amp; Finish",
+          "steps": [
+            "Cancel sauté. Add the reserved sauce and 1/4 cup water. Close the lid, set the vent to sealing, and cook on manual pressure for 10 minutes.",
+            "Start rice separately (about 1/4 cup per person) so it finishes around the same time as the chicken.",
+            "When the 10 minutes is up, carefully quick-release the pressure, add the vegetables, then cook on manual pressure for 2 more minutes.",
+            "Let sit 5 minutes, then quick-release again. Transfer the chicken and vegetables to a serving dish deep enough to hold the sauce.",
+            "Whisk the cornstarch with a small splash of cold water to make a slurry. Hit sauté and stir the slurry into the sauce until thickened, then pour over the chicken and serve."
+          ]
+        }
+      ],
+      "tips": [
+        "No Instant Pot? Simmer covered on the stovetop for 30–45 minutes instead of pressure cooking.",
+        "No Chinese 5-spice on hand? Swap in fresh or powdered ginger, garlic, and a bit more soy sauce.",
+        "Swap in whatever vegetables are in season — soaked dried shiitake mushrooms are a great addition if you have them."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Cynthia Priest, Cynful Kitchen",
+      "sourceUrl": "https://www.cynfulkitchen.ca/recipe/instant-pot-braised-chicken/",
+      "creditRaw": null
+    },
+    {
+      "slug": "Korean_Ground_Beef_Rice_Bowls",
+      "title": "Korean Ground Beef and Rice Bowls",
+      "subtitle": "A 20-minute weeknight bowl — ground beef in a sweet-savory soy and sesame sauce over hot rice.",
+      "categories": [
+        "Lunch",
+        "Dinner"
+      ],
+      "tags": [
+        "Beef",
+        "Korean",
+        "Rice",
+        "Skillet"
+      ],
+      "desc": "A 20-minute weeknight bowl — ground beef in a sweet-savory soy and sesame sauce over hot rice.",
+      "dateAdded": "2026-08-15",
+      "photo": "Korean_Ground_Beef_Rice_Bowls_Recipe.jpg",
+      "alt": "Korean ground beef over rice topped with green onions and sesame seeds",
+      "serves": "4",
+      "prep": "5 min",
+      "cook": "15 min",
+      "difficulty": "Easy",
+      "story": "Minimal ingredients, big flavor, and on the table in twenty minutes — this is the kind of weeknight dinner kids ask for on repeat. The beef browns in a few minutes but still picks up that classic Korean profile from brown sugar, soy sauce, sesame oil, and ginger. Everything but the beef is pantry staples, so it's an easy one to fall back on. Serve it over the stovetop jasmine rice, add whatever vegetables you have, and finish with green onions and sesame seeds.",
+      "ingredientGroups": [
+        {
+          "name": "The Sauce",
+          "note": "Whisked together, poured over at the end",
+          "items": [
+            {
+              "name": "Brown sugar, packed",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Reduced-sodium soy sauce",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Sesame oil",
+              "qty": "2 tsp"
+            },
+            {
+              "name": "Ground ginger",
+              "qty": "1/4 tsp"
+            },
+            {
+              "name": "Crushed red pepper flakes",
+              "qty": "1/4 tsp"
+            },
+            {
+              "name": "Black pepper",
+              "qty": "1/4 tsp"
+            }
+          ],
+          "footnote": null
+        },
+        {
+          "name": "Beef &amp; Bowls",
+          "note": "Browned in a skillet, served over rice",
+          "items": [
+            {
+              "name": "Lean ground beef (90% lean)",
+              "qty": "1 lb"
+            },
+            {
+              "name": "Garlic cloves, minced",
+              "qty": "3"
+            },
+            {
+              "name": "Hot cooked white or brown rice",
+              "qty": "2 cups"
+            },
+            {
+              "name": "Sliced green onions &amp; sesame seeds",
+              "qty": "to garnish"
+            }
+          ],
+          "footnote": "White, brown, and jasmine rice all work well here."
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Brown the Beef",
+          "steps": [
+            "In a large skillet over medium heat, cook the ground beef and garlic, breaking the beef into crumbles, until it's no longer pink.",
+            "Drain off the grease."
+          ]
+        },
+        {
+          "label": "Sauce &amp; Serve",
+          "steps": [
+            "In a small bowl, whisk together the brown sugar, soy sauce, sesame oil, ginger, red pepper flakes, and pepper.",
+            "Pour the sauce over the beef and let it simmer another minute or two, until glossy and coated.",
+            "Serve over hot rice and garnish with green onions and sesame seeds."
+          ]
+        }
+      ],
+      "tips": [
+        "Ground beef is safest cooked well done — the USDA minimum safe internal temperature is 160°F.",
+        "Swap in ground chicken if you prefer: sauté it with all the same ingredients until no longer pink.",
+        "Add vegetables to stretch it into a fuller meal — broccoli stirred in with the sauce is an easy way to round it out."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Alyssa Rivers, The Recipe Critic",
+      "sourceUrl": "https://therecipecritic.com/korean-ground-beef-rice-bowls/",
+      "creditRaw": null
+    },
+    {
+      "slug": "Mini_Meatloaves",
+      "title": "Favorite Mini Meatloaves",
+      "subtitle": "Meatloaf baked in a muffin pan with two hidden veggies — 30 minutes start to finish, and it freezes beautifully.",
+      "categories": [
+        "Lunch",
+        "Dinner"
+      ],
+      "tags": [
+        "Beef",
+        "Kid-Friendly",
+        "Freezer-Friendly"
+      ],
+      "desc": "Meatloaf baked in a muffin pan with two hidden veggies — 30 minutes start to finish, and it freezes beautifully.",
+      "dateAdded": "2026-08-17",
+      "photo": "Mini_Meatloaves_Recipe.jpg",
+      "alt": "Mini meatloaves and sides on white plates",
+      "serves": "9",
+      "prep": "10 min",
+      "cook": "20 min",
+      "difficulty": "Easy",
+      "story": "Baking meatloaf in a muffin pan cuts the cook time from an hour-plus down to twenty minutes, and the portions come out toddler-sized without any slicing. Grated onion and carrot melt into the mix, adding nutrients without changing the texture or flavor enough for anyone to object. It's iron-rich, reheats well, and freezes for up to six months — so it doubles as a make-ahead freezer meal. Serve with buttered noodles, rice, or roasted potatoes.",
+      "ingredientGroups": [
+        {
+          "name": "The Meatloaf",
+          "note": "Everything mixed in one bowl",
+          "items": [
+            {
+              "name": "Lean ground beef (or turkey/chicken)",
+              "qty": "1 lb"
+            },
+            {
+              "name": "Breadcrumbs, Italian-style",
+              "qty": "1/2 cup"
+            },
+            {
+              "name": "Onion, grated",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Carrot, grated",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Egg, lightly beaten",
+              "qty": "1"
+            }
+          ],
+          "footnote": "Grate the onion and carrot on a box grater so they disappear into the mix."
+        },
+        {
+          "name": "Seasoning &amp; Topping",
+          "note": "Ketchup goes on last, not in the bowl",
+          "items": [
+            {
+              "name": "Dijon mustard",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Garlic powder",
+              "qty": "1/2 tsp"
+            },
+            {
+              "name": "Chili powder",
+              "qty": "1/2 tsp"
+            },
+            {
+              "name": "Salt",
+              "qty": "1/2 tsp"
+            },
+            {
+              "name": "Ketchup, for brushing",
+              "qty": "1/4 cup"
+            }
+          ],
+          "footnote": null
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Mix &amp; Fill",
+          "steps": [
+            "Preheat the oven to 350°F. Grease a nonstick muffin pan with nonstick spray.",
+            "Add all the ingredients <em>except the ketchup</em> to a large bowl and mix well with clean hands or a spoon.",
+            "Divide the mixture among the muffin cups, about 1/4 cup each, and press down gently.",
+            "Brush the top of each with ketchup."
+          ]
+        },
+        {
+          "label": "Bake &amp; Serve",
+          "steps": [
+            "Bake for 20–24 minutes, until an instant-read thermometer inserted into the center reads 160°F.",
+            "Let cool 2 minutes in the pan, then loosen with a knife if needed and transfer to a plate.",
+            "Serve warm with the sides of your choice."
+          ]
+        }
+      ],
+      "tips": [
+        "Use a thermometer rather than the clock — pulling them right at 160°F is what keeps them juicy instead of dry.",
+        "Swap minced mushrooms for the carrot if you'd rather the veggies blend in without the orange flecks.",
+        "Gluten-free: use GF breadcrumbs. Egg-free: omit the egg and add a splash of milk instead.",
+        "Keeps 5 days in the fridge, or freeze cooked meatloaves up to 6 months with the air pressed out of the bag."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Amy Palanjian, Yummy Toddler Food",
+      "sourceUrl": "https://www.yummytoddlerfood.com/favorite-mini-meatloaves/",
+      "creditRaw": null
+    },
+    {
+      "slug": "Miso_Ramen",
+      "title": "Miso Ramen",
+      "subtitle": "A rich, savory weeknight ramen with a deeply flavored miso-sesame broth.",
+      "categories": [
+        "Dinner"
+      ],
+      "tags": [
+        "Soup",
+        "Noodles"
+      ],
+      "desc": "A rich, savory weeknight ramen with a deeply flavored miso-sesame broth.",
+      "dateAdded": "2026-07-20",
+      "photo": "Miso_Ramen_Recipe.jpg",
+      "alt": "Bowl of miso ramen with sliced pork, egg, and nori",
+      "serves": "4",
+      "prep": "15 min",
+      "cook": "20 min",
+      "difficulty": "Easy",
+      "story": "A simplified version of the classic Japanese miso ramen, originally inspired by Just One Cookbook. This kid-friendly recipe uses ground pork for speed and builds a rich miso-sesame broth in under 30 minutes. The broth freezes well — make a double batch and stash the extra for busy weeknights.",
+      "ingredientGroups": [
+        {
+          "name": "Broth",
+          "note": "The flavor base for the soup",
+          "items": [
+            {
+              "name": "Sesame oil",
+              "qty": "2 tbsp"
+            },
+            {
+              "name": "Garlic, minced",
+              "qty": "2 tbsp"
+            },
+            {
+              "name": "Ginger, minced",
+              "qty": "1 tsp"
+            },
+            {
+              "name": "Shallot, chopped",
+              "qty": "2"
+            },
+            {
+              "name": "Ground pork",
+              "qty": "½ lb"
+            },
+            {
+              "name": "Doubanjiang (chili bean paste)",
+              "qty": "2 tsp"
+            },
+            {
+              "name": "Miso paste",
+              "qty": "6 tbsp"
+            },
+            {
+              "name": "Sugar",
+              "qty": "2 tbsp"
+            },
+            {
+              "name": "Toasted sesame seeds",
+              "qty": "2 tbsp"
+            },
+            {
+              "name": "Sake or mirin",
+              "qty": "2 tbsp"
+            },
+            {
+              "name": "Salt",
+              "qty": "2 tsp"
+            },
+            {
+              "name": "Chicken stock",
+              "qty": "8 cups"
+            }
+          ],
+          "footnote": "Doubanjiang is optional — buy non-spicy if you prefer mild. Ground chicken or mushrooms can sub for pork."
+        },
+        {
+          "name": "Noodles &amp; Toppings",
+          "note": "Cook separately, assemble when plating",
+          "items": [
+            {
+              "name": "Fresh ramen noodles",
+              "qty": "4 servings"
+            },
+            {
+              "name": "Corn kernels",
+              "qty": "1 cup"
+            },
+            {
+              "name": "Bean sprouts",
+              "qty": "2 cups"
+            },
+            {
+              "name": "Nori, cut into squares",
+              "qty": "1 sheet"
+            },
+            {
+              "name": "Scallions, chopped",
+              "qty": "1"
+            },
+            {
+              "name": "White pepper powder",
+              "qty": "optional"
+            },
+            {
+              "name": "Pork belly, sliced",
+              "qty": "optional"
+            },
+            {
+              "name": "Pickled red ginger",
+              "qty": "optional"
+            }
+          ],
+          "footnote": null
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Make the Broth",
+          "steps": [
+            "Heat a stock pot over medium heat. Add sesame oil, then garlic, ginger, and shallot. Sauté until fragrant.",
+            "Add ground pork. Cook 4–5 minutes, breaking it apart, until no longer pink.",
+            "Add doubanjiang, miso paste, sugar, and sesame seeds. Mix well with the meat for 2 minutes — don't let it burn.",
+            "Pour in chicken stock and add salt. Taste and adjust seasoning. Boil over medium heat for 5 minutes."
+          ]
+        },
+        {
+          "label": "Noodles &amp; Assembly",
+          "steps": [
+            "Cook ramen noodles according to package directions. Drain and divide among bowls.",
+            "Add bean sprouts and corn to the broth during the last minute of simmering, or keep them raw and pour hot broth over them when plating.",
+            "Ladle broth and pork over the noodles. Top with nori squares, scallions, pickled ginger, pork belly slices, and a sprinkle of white pepper."
+          ]
+        }
+      ],
+      "tips": [
+        "Make the broth ahead and freeze in portions — reheat and cook fresh noodles when ready to serve.",
+        "For a richer bowl, soft-boil eggs (6.5 min) and marinate in soy sauce + mirin overnight.",
+        "Adjust the miso-to-stock ratio to taste — start with 5 tbsp miso if you prefer a lighter broth."
+      ],
+      "creditPrefix": null,
+      "creditName": "Recipe &amp; video: Steph Bae (original by @justonecookbook)",
+      "sourceUrl": null,
+      "creditRaw": "Recipe &amp; video: Steph Bae (original by @justonecookbook)"
+    },
+    {
+      "slug": "One_Pot_Toddler_Pasta",
+      "title": "One-Pot Toddler Pasta",
+      "subtitle": "A simple, one-pot pasta cooked right in broth for a creamy, kid-approved meal.",
+      "categories": [
+        "Lunch",
+        "Dinner"
+      ],
+      "tags": [
+        "Pasta",
+        "Kid-Friendly"
+      ],
+      "desc": "A simple, one-pot pasta cooked right in broth for a creamy, kid-approved meal.",
+      "dateAdded": "2026-08-02",
+      "photo": "One_Pot_Toddler_Pasta_Recipe.jpg",
+      "alt": "Pasta in a bowl with carrots and peas",
+      "serves": "4",
+      "prep": "5 min",
+      "cook": "10 min",
+      "difficulty": "Easy",
+      "story": "Cooking the pasta directly in chicken bone broth gives it a flavor somewhere between chicken noodle soup and mac and cheese, and shredded carrot and peas sneak in extra veggies without a fuss. It comes together in one pot in about 15 minutes, making it a reliable go-to for toddlers and picky eaters alike.",
+      "ingredientGroups": [
+        {
+          "name": "Pasta &amp; Veggies",
+          "note": "Cooked together in one pot",
+          "items": [
+            {
+              "name": "Alphabet pasta (or any short-cut pasta)",
+              "qty": "4 oz"
+            },
+            {
+              "name": "Chicken bone broth",
+              "qty": "1⅓ cups"
+            },
+            {
+              "name": "Carrot, shredded",
+              "qty": "1"
+            },
+            {
+              "name": "Frozen peas",
+              "qty": "½ cup"
+            }
+          ],
+          "footnote": "Regular broth, stock, or even water works if you don't have bone broth on hand."
+        },
+        {
+          "name": "Finishing",
+          "note": "Stirred in once pasta is tender",
+          "items": [
+            {
+              "name": "Butter",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Heavy cream",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "White cheddar, shredded",
+              "qty": "1 oz"
+            }
+          ],
+          "footnote": null
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Cook the Pasta",
+          "steps": [
+            "Add pasta, bone broth, carrot, and peas to a medium-sized pot over medium-high heat.",
+            "Bring to a boil. Stir frequently until the pasta is al dente, about 8–10 minutes."
+          ]
+        },
+        {
+          "label": "Finish &amp; Serve",
+          "steps": [
+            "Stir in the butter, cream, and cheese until well-combined and creamy.",
+            "Add salt and pepper, if desired, and serve immediately."
+          ]
+        }
+      ],
+      "tips": [
+        "Try protein-packed chickpea pasta, like Banza, for added nutrients.",
+        "If there's leftover liquid in the pot after cooking, simmer a minute or two longer, or drain slightly before stirring in the cheese.",
+        "Grate in a bit of broccoli along with the carrot to sneak in even more veggies."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Paige Rhodes, My Modern Cookery",
+      "sourceUrl": "https://www.mymoderncookery.com/one-pot-toddler-pasta/",
+      "creditRaw": null
+    },
+    {
+      "slug": "Protein_Egg_Muffins",
+      "title": "Protein Egg Muffins",
+      "subtitle": "Eggs whipped with cottage cheese and baked in a muffin tin — high protein, endlessly customizable, done in 15 minutes.",
+      "categories": [
+        "Breakfast",
+        "Snacks"
+      ],
+      "tags": [
+        "Eggs",
+        "Kid-Friendly",
+        "Meal Prep"
+      ],
+      "desc": "Eggs whipped with cottage cheese and baked in a muffin tin — high protein, endlessly customizable, done in 15 minutes.",
+      "dateAdded": "2026-09-01",
+      "photo": "Protein_Egg_Muffins_Recipe.jpg",
+      "alt": "Six golden puffed egg muffins in a muffin tin",
+      "serves": "6",
+      "prep": "10 min",
+      "cook": "15 min",
+      "difficulty": "Easy",
+      "story": "Whisking cottage cheese into the eggs is what makes these puff up like little soufflés and gives them the protein to actually hold you over. This is a half batch — six muffins, one per cup — with bacon and sautéed red pepper folded in, though the add-ins are entirely up to whatever's in the fridge. Fifteen minutes in the toaster oven at 350°F set them perfectly: golden on top, fully cooked through the middle, and no watery weeping in the pan.",
+      "ingredientGroups": [
+        {
+          "name": "The Base",
+          "note": "Whisked together in a bowl",
+          "items": [
+            {
+              "name": "Eggs",
+              "qty": "6"
+            },
+            {
+              "name": "Cottage cheese",
+              "qty": "1/4 cup"
+            },
+            {
+              "name": "Olive oil, for greasing the tin",
+              "qty": "to coat"
+            }
+          ],
+          "footnote": "A quarter cup for six eggs runs leaner than the original's tablespoon-per-cup — that's what keeps them from going watery."
+        },
+        {
+          "name": "Add-Ins",
+          "note": "Added after the cups are filled",
+          "items": [
+            {
+              "name": "Bacon, cooked and diced",
+              "qty": "2 slices"
+            },
+            {
+              "name": "Red bell pepper, diced",
+              "qty": "1/4"
+            },
+            {
+              "name": "Shredded Mexican cheese blend",
+              "qty": "a good pinch each"
+            }
+          ],
+          "footnote": "Swap freely — spinach, tomatoes, mushrooms, or ham all work."
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Prep the Add-Ins",
+          "steps": [
+            "Preheat the oven to 350°F and grease a muffin tin with olive oil.",
+            "Cook the bacon on the stovetop, set aside to cool, then dice.",
+            "Dice the bell pepper and sauté it briefly in the same pan, in the bacon fat."
+          ]
+        },
+        {
+          "label": "Fill &amp; Bake",
+          "steps": [
+            "Whisk the eggs and cottage cheese together in a bowl until evenly combined.",
+            "Fill each muffin cup about 75% full with the egg mixture — they rise a lot.",
+            "Divide the bacon and bell pepper evenly between the cups, then top each with a good pinch of shredded cheese.",
+            "Bake about 15 minutes, until puffed, golden, and fully set in the center."
+          ]
+        }
+      ],
+      "tips": [
+        "15 minutes is the toaster-oven time. A full-size oven runs cooler at the edges — start checking at 15 but expect closer to 20.",
+        "Whisking the base in a bowl rather than mixing it cup-by-cup with a fork gives a much more even, uniform texture.",
+        "Don't overfill. At 75% they crest well above the rim while baking and settle back down as they cool.",
+        "Keep 4 days in the fridge or freeze up to 2 months. Reheat 20–30 seconds in the microwave."
+      ],
+      "creditPrefix": "Adapted from ",
+      "creditName": "Ashley, Real Little Meals",
+      "sourceUrl": "https://reallittlemeals.com/post/protein-egg-muffins/",
+      "creditRaw": null
+    },
+    {
+      "slug": "Simple_Miso_Ramen",
+      "title": "Simple Miso Ramen",
+      "subtitle": "A clean, minimalist miso ramen you can pull together in 15 minutes flat.",
+      "categories": [
+        "Dinner"
+      ],
+      "tags": [
+        "Soup",
+        "Noodles"
+      ],
+      "desc": "A clean, minimalist miso ramen you can pull together in 15 minutes flat.",
+      "dateAdded": "2026-07-22",
+      "photo": "Simple_Miso_Ramen_Recipe.jpg",
+      "alt": "Bowl of miso ramen with noodles",
+      "serves": "2",
+      "prep": "5 min",
+      "cook": "10 min",
+      "difficulty": "Easy",
+      "story": "A pared-back weeknight miso ramen built on dashi, sesame oil, and a handful of pantry staples. No long simmer, no fussy prep — just a warm, savory bowl in under 15 minutes. Great as a base recipe to customize with whatever toppings you have on hand.",
+      "ingredientGroups": [
+        {
+          "name": "Broth",
+          "note": "The soup base",
+          "items": [
+            {
+              "name": "Dashi stock",
+              "qty": "4 cups"
+            },
+            {
+              "name": "Miso paste (white or red)",
+              "qty": "3 tbsp"
+            },
+            {
+              "name": "Sesame oil",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Garlic, minced",
+              "qty": "2 cloves"
+            },
+            {
+              "name": "Soy sauce",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Mirin",
+              "qty": "1 tbsp"
+            }
+          ],
+          "footnote": "Water plus instant dashi granules works in place of fresh dashi stock."
+        },
+        {
+          "name": "Noodles &amp; Toppings",
+          "note": "Cook noodles in the broth, add toppings when plating",
+          "items": [
+            {
+              "name": "Ramen noodles (fresh or dried)",
+              "qty": "2 servings"
+            },
+            {
+              "name": "Green onions, sliced",
+              "qty": "to taste"
+            },
+            {
+              "name": "Corn kernels",
+              "qty": "to taste"
+            },
+            {
+              "name": "Boiled egg",
+              "qty": "to taste"
+            }
+          ],
+          "footnote": null
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Build the Broth",
+          "steps": [
+            "Heat sesame oil in a pot over medium heat. Cook minced garlic for 1 minute until fragrant.",
+            "Pour in dashi stock, soy sauce, and mirin. Bring to a gentle boil.",
+            "Turn heat down to low. Add ramen noodles and cook until soft — about 3 minutes for fresh, 4–5 minutes for dried."
+          ]
+        },
+        {
+          "label": "Finish &amp; Serve",
+          "steps": [
+            "Place miso paste in a small ladle, dip into the warm broth, and stir with chopsticks until fully dissolved. Do not let the soup boil after adding miso.",
+            "Divide noodles and broth among bowls. Add green onions, corn, boiled egg, and any other toppings. Serve immediately."
+          ]
+        }
+      ],
+      "tips": [
+        "Always dissolve miso off the boil — high heat kills the live cultures and dulls the flavor.",
+        "For a soft-boiled egg topping, boil for 6.5 minutes, then ice-bath immediately. Halve when plating.",
+        "Add a knob of butter to each bowl for a richer, creamier broth (miso butter ramen style)."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "compiled from Yuki's Kitchen, Steamy Kitchen, Hikari Miso, Erren's Kitchen",
+      "sourceUrl": null,
+      "creditRaw": null
+    },
+    {
+      "slug": "Skillet_Broccoli_Cheddar_Rice",
+      "title": "Skillet Broccoli-Cheddar Rice",
+      "subtitle": "Buttery rice, tender broccoli, and a broiled cheddar crust — all from one pan.",
+      "categories": [
+        "Dinner",
+        "Sides"
+      ],
+      "tags": [
+        "Rice",
+        "One-Pan"
+      ],
+      "desc": "Buttery rice, tender broccoli, and a broiled cheddar crust — all from one pan.",
+      "dateAdded": "2026-07-25",
+      "photo": "Skillet_Broccoli_Cheddar_Rice_Recipe.jpg",
+      "alt": "Skillet broccoli-cheddar rice",
+      "serves": "4",
+      "prep": "10 min",
+      "cook": "35 min",
+      "difficulty": "Easy",
+      "story": "This has the DNA of a broccoli-rice casserole, but each element shines on its own: the rice is buttered and oniony-sweet, the broccoli stays tender and green (not mushy), and the cheddar is broiled on top for a mix of gooey and crisp bites. Eat it as-is, alongside rotisserie chicken or pork chops, or stir in a drained can of beans or tuna for a fuller meal.",
+      "ingredientGroups": [
+        {
+          "name": "Rice Base",
+          "note": "Cooked together in one pan",
+          "items": [
+            {
+              "name": "Unsalted butter",
+              "qty": "2 tbsp"
+            },
+            {
+              "name": "Yellow onion, finely chopped",
+              "qty": "1"
+            },
+            {
+              "name": "Garlic cloves, thinly sliced",
+              "qty": "3"
+            },
+            {
+              "name": "Long-grain white rice",
+              "qty": "1 cup"
+            },
+            {
+              "name": "Water",
+              "qty": "1¾ cups"
+            },
+            {
+              "name": "Salt",
+              "qty": "to taste"
+            }
+          ],
+          "footnote": "About 1 tsp Diamond Crystal kosher salt for the rice. Use an oven-safe skillet or Dutch oven with a lid."
+        },
+        {
+          "name": "Broccoli &amp; Topping",
+          "note": "Added in stages, broiled at the end",
+          "items": [
+            {
+              "name": "Broccoli stem, coarsely chopped",
+              "qty": "1 large head"
+            },
+            {
+              "name": "Broccoli florets, 1-inch pieces",
+              "qty": "(same head)"
+            },
+            {
+              "name": "Sharp cheddar, grated",
+              "qty": "4 oz (1 cup)"
+            },
+            {
+              "name": "Hot sauce, for serving",
+              "qty": "optional"
+            }
+          ],
+          "footnote": null
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Cook the Rice",
+          "steps": [
+            "Melt butter in a large Dutch oven or oven-safe skillet over medium heat. Add onion, garlic, and chopped broccoli stem. Season with salt and cook, stirring occasionally, until softened but not browned, 5–7 minutes.",
+            "Add rice and 1¾ cups water. Season with salt (about 1 tsp Diamond Crystal). Bring to a boil, cover, reduce heat to low, and simmer for 10 minutes.",
+            "Working quickly, scatter broccoli florets on top of the rice and season with a pinch of salt. Cover and cook until rice is tender and broccoli is bright green, 8–10 more minutes. Turn off heat and rest, covered, for 5 minutes."
+          ]
+        },
+        {
+          "label": "Broil &amp; Serve",
+          "steps": [
+            "Arrange a rack near the broiler and heat broiler to high.",
+            "Gently stir the broccoli and rice together, then sprinkle cheese evenly over the top.",
+            "Broil until melted and golden in spots, 2–4 minutes. Serve with hot sauce if desired."
+          ]
+        }
+      ],
+      "tips": [
+        "Don't skip the 5-minute covered rest — it lets the rice finish steaming and absorb any remaining water.",
+        "Watch the broiler closely; cheese can go from golden to burned in under a minute. Keep the oven light on.",
+        "For a heartier meal, stir in a drained can of white beans or tuna right before adding the cheese."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Ali Slagle, The New York Times (Sept 2025)",
+      "sourceUrl": "https://cooking.nytimes.com/recipes/1024830-skillet-broccoli-cheddar-rice",
+      "creditRaw": null
+    },
+    {
+      "slug": "Southwest_Ground_Beef_Rice_Skillet",
+      "title": "Southwest Ground Beef and Rice Skillet",
+      "subtitle": "A 40-minute one-skillet dinner built on pantry cans and leftover rice — set out toppings and let everyone build their own bowl.",
+      "categories": [
+        "Lunch",
+        "Dinner"
+      ],
+      "tags": [
+        "Beef",
+        "Mexican",
+        "Rice",
+        "Skillet"
+      ],
+      "desc": "A 40-minute one-skillet dinner built on pantry cans and leftover rice — set out toppings and let everyone build their own bowl.",
+      "dateAdded": "2026-09-01",
+      "photo": "Southwest_Ground_Beef_Rice_Skillet_Recipe.jpg",
+      "alt": "Skillet of Southwest ground beef and rice topped with melted cheese and green onions",
+      "serves": "4",
+      "prep": "10 min",
+      "cook": "30 min",
+      "difficulty": "Easy",
+      "story": "This is the weeknight answer to a pound of ground beef and some leftover rice. Almost everything else comes out of cans — tomatoes, corn, beans — so it's the kind of dinner you can pull together without a shopping trip. Everything happens in one skillet, the cheese melts under a lid at the end, and the real move is setting out bowls of toppings so everyone builds their own. Leftover jasmine rice from earlier in the week is perfect here.",
+      "ingredientGroups": [
+        {
+          "name": "Beef &amp; Seasoning",
+          "note": "Browned first, spices bloomed after",
+          "items": [
+            {
+              "name": "Olive oil",
+              "qty": "1 tbsp"
+            },
+            {
+              "name": "Ground beef",
+              "qty": "1 lb"
+            },
+            {
+              "name": "Onion, small, diced",
+              "qty": "1"
+            },
+            {
+              "name": "Garlic cloves, minced",
+              "qty": "2"
+            },
+            {
+              "name": "Chili powder",
+              "qty": "1 tsp"
+            },
+            {
+              "name": "Ground cumin",
+              "qty": "1/2 tsp"
+            },
+            {
+              "name": "Smoked paprika",
+              "qty": "1/2 tsp"
+            },
+            {
+              "name": "Onion powder",
+              "qty": "1/2 tsp"
+            },
+            {
+              "name": "Garlic powder",
+              "qty": "1/2 tsp"
+            },
+            {
+              "name": "Cayenne pepper (optional)",
+              "qty": "1/4 tsp"
+            },
+            {
+              "name": "Kosher salt &amp; black pepper",
+              "qty": "to taste"
+            }
+          ],
+          "footnote": null
+        },
+        {
+          "name": "Stir-Ins &amp; Topping",
+          "note": "Mostly pantry cans",
+          "items": [
+            {
+              "name": "Diced tomatoes, undrained",
+              "qty": "14.5 oz"
+            },
+            {
+              "name": "Corn kernels, drained",
+              "qty": "15.25 oz"
+            },
+            {
+              "name": "Black or pinto beans, drained",
+              "qty": "15 oz"
+            },
+            {
+              "name": "Cooked rice",
+              "qty": "2 cups"
+            },
+            {
+              "name": "Shredded Mexican cheese blend",
+              "qty": "1 cup"
+            }
+          ],
+          "footnote": "Toppings to set out: green onions, cilantro, a squeeze of lime, tortilla chips, salsa, guacamole, avocado, sour cream, jalapeños."
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Brown &amp; Season",
+          "steps": [
+            "Heat the olive oil in a large skillet over medium-high until shimmering. Add the ground beef, onion, and garlic. Cook, stirring and breaking up the meat, until no longer pink — 5 to 7 minutes. Drain off the excess grease.",
+            "Reduce the heat to medium. Add all the spices plus about 1/2 tsp salt and 1/4 tsp pepper. Cook, stirring, about 30 seconds to bloom them."
+          ]
+        },
+        {
+          "label": "Simmer &amp; Melt",
+          "steps": [
+            "Add the tomatoes with their juices, the corn, and the beans. Bring to a simmer, then reduce the heat to low and cook about 5 minutes.",
+            "Stir in the rice — a fork works better than a spoon here, since it separates the grains instead of clumping them. If it looks dry, loosen with a splash of water, broth, or salsa. Taste and adjust the seasoning.",
+            "Sprinkle the cheese over the top, cover, and cook 2–3 minutes until melted and bubbly. For browned, crispier cheese, run the skillet under the broiler instead.",
+            "Serve in bowls and let everyone pile on their own toppings."
+          ]
+        }
+      ],
+      "tips": [
+        "Any cooked rice works — leftovers, a microwave pouch, white, brown, or jasmine. If you use cauliflower rice, drain it well or it waters the whole dish down.",
+        "Skip the freezer if you can. It keeps 3 months, but rice swells as it freezes and thaws out mushy — 3 to 4 days in the fridge is the better plan.",
+        "Reheat gently in a covered skillet over low heat, just until warm. Push it too far and the rice turns gummy.",
+        "Swap the beef for ground turkey, chicken, pork, or sausage. A splash of Worcestershire adds depth; a teaspoon of sugar balances the acidity of the tomatoes."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Blair Lonergan, The Seasoned Mom",
+      "sourceUrl": "https://www.theseasonedmom.com/southwest-ground-beef-and-rice-skillet/",
+      "creditRaw": null
+    },
+    {
+      "slug": "Stovetop_Jasmine_Rice",
+      "title": "15-Minute Stovetop Jasmine Rice",
+      "subtitle": "A quick, buttery stovetop rice with only five ingredients — the side dish that goes with everything.",
+      "categories": [
+        "Sides"
+      ],
+      "tags": [
+        "Rice",
+        "Stovetop",
+        "Kid-Friendly"
+      ],
+      "desc": "A quick, buttery stovetop rice with only five ingredients — the side dish that goes with everything.",
+      "dateAdded": "2026-08-15",
+      "photo": "Stovetop_Jasmine_Rice_Recipe.jpg",
+      "alt": "Fluffy jasmine rice on a white plate",
+      "serves": "3–4",
+      "prep": "1 min",
+      "cook": "14 min",
+      "difficulty": "Easy",
+      "story": "This is the go-to stovetop jasmine rice for pairing with just about any dinner. The ingredients are basic, but two small moves make it far better than the store-bought pre-cooked stuff: toasting the rinsed rice in butter for a couple of minutes first, and swapping some of the water for chicken broth. It takes barely any prep, and it's the natural partner for the Korean ground beef bowls or the air fryer salmon.",
+      "ingredientGroups": [
+        {
+          "name": "The Rice",
+          "note": "Rinsed, then toasted in butter",
+          "items": [
+            {
+              "name": "Jasmine rice",
+              "qty": "1 cup"
+            },
+            {
+              "name": "Unsalted butter",
+              "qty": "1/4 tbsp"
+            }
+          ],
+          "footnote": "Rinse the rice well, until the water running through is clear — this removes excess starch and keeps the grains separate."
+        },
+        {
+          "name": "Liquid &amp; Seasoning",
+          "note": "Added once the rice is toasted",
+          "items": [
+            {
+              "name": "Water",
+              "qty": "1 cup"
+            },
+            {
+              "name": "Chicken broth or bone broth",
+              "qty": "1/2 cup"
+            },
+            {
+              "name": "Salt",
+              "qty": "to taste"
+            }
+          ],
+          "footnote": null
+        }
+      ],
+      "directionGroups": [
+        {
+          "label": "Toast",
+          "steps": [
+            "Bring a small pot to medium heat and melt the butter.",
+            "Rinse the jasmine rice, then add it to the pot and stir with the butter for 2–3 minutes to give it a light toast."
+          ]
+        },
+        {
+          "label": "Steam &amp; Season",
+          "steps": [
+            "Add the water and chicken broth, cover the pot, and turn the heat to high.",
+            "Once it comes to a boil, drop the heat to its lowest setting and let the rice steam, covered, for about 14 minutes.",
+            "Season with salt to taste, fluff, and serve."
+          ]
+        }
+      ],
+      "tips": [
+        "No broth on hand? Use 1 1/2 cups water total instead, and add a chicken bouillon cube for the flavor you'd otherwise lose.",
+        "Keep the lid on for the full 14 minutes — lifting it lets the steam out and leaves the rice unevenly cooked.",
+        "Stores in a sealed container in the fridge for 3–4 days."
+      ],
+      "creditPrefix": "Recipe: ",
+      "creditName": "Jansu, My Toddler's Kitchen",
+      "sourceUrl": "https://www.mytoddlerskitchen.com/recipes/stovetop-jasmine-rice",
+      "creditRaw": null
+    }
+  ]
+            }
