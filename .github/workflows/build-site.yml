@@ -1,0 +1,53 @@
+name: Rebuild site from recipes.json
+
+on:
+  push:
+    paths:
+      - 'recipes.json'
+      - 'build.js'
+      - '_template_card.html'
+      - '_template_index.html'
+      - '.github/workflows/build-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# If two pushes land close together, let the newer one win rather than
+# racing each other to commit.
+concurrency:
+  group: build-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild cards and index
+        run: node build.js
+
+      - name: Show what changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes - generated output already matches recipes.json."
+          else
+            git --no-pager diff --stat
+          fi
+
+      - name: Commit regenerated files
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Rebuild recipe cards and index from recipes.json"
+          git push
